@@ -1,3 +1,5 @@
+/*name, height, type*/
+
 let pokemonList = [
     {name: 'Butterfree', height: 1.1, type: ['Bug', 'Rock', 'Grass']}
     {name: 'Caterpie', height: 0.3, type: ['Flying', 'Rock', 'Fire']}
@@ -5,4 +7,3 @@ let pokemonList = [
 ];
 
 
-/*name, height, type*/
