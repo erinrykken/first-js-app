@@ -50,12 +50,12 @@ for (let i = 0; i <= pokemonList.length; i++) {
     let pokemonList = [
         {name: 'Butterfree', height: 1.1, type: ['Bug', 'Rock', 'Grass']},
         {name: 'Caterpie', height: 0.3, type: ['Flying', 'Rock', 'Fire']},
-        {name: 'Charmander', height: 0.6, type: ['Fairy', 'Fire', 'Ice']}
+        {name: 'Charmander', height: 0.6, type: ['Fairy', 'Fire', 'Ice']},
     ] 
     for (let i = 0; i <= 2; i++) {  
         console.log('My name is ' + pokemonList[i].name);
         console.log('I am ' + pokemonList[i].height);
-        console.log('My types are' + pokemonList[i].type[0][1][2])
+        console.log('My types are ' + pokemonList[i].type[0], pokemonList[i].type[1], pokemonList[i].type[2]);
     }
 
     
