@@ -10,7 +10,7 @@
     for (let i = 0; i <= 2; i++) {
         document.write('<li>' + (pokemonList[i].name + ': ') + (pokemonList[i].height) + ' units tall    ');
     if (pokemonList[i].height >= 1.0){
-            document.write("  --  I'm a big fella!  ") ;
+            document.write("  --  I'm a big fella!  ");
     }
     else if (pokemonList[i].height >= 0.5 && pokemonList[i].height < 1.0){
         document.write("  --  I'm a medium fella!  ");
@@ -22,10 +22,3 @@
 }
 document.write('</ul>')
 
-
-    
-
-
-//practice for part 3 of exercise
-
-//if the pokemon height is above 1.0 then write "Big Feller!" after the height
